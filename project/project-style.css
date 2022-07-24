@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  width: 620px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+a:link { color: #000; text-decoration: none; }
+a:visited { color: #000; text-decoration: none; }
+a:hover { color: #7fd9d9; text-decoration: none; }
+
+.content {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 650px;
+  height: 600px;
+  box-shadow: 5px 5px;
+  background-color: #f3f3f3;
+  padding: 30px;
+}
+
+.content h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.content span {
+  color:#7fd9d9;
+  font-size: 60px;
+  font-family: 'BIZ UDPGothic', sans-serif;
+
+}
+
+.content img {
+  border: 1px solid #000;
+}
+
+.skill {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+.skill p {
+  font-weight: 700;
+  font-size: 12px;
+  background: #f3d10f;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.blog {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.blog i {
+  font-size: 20px;
+  padding-left: 10px;
+}
