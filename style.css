@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background-color: #f3f3f3;
+}
+
+strong{
+  display: block;
+}
+
+a:link { color: #000; text-decoration: none; }
+a:visited { color: #eda307; text-decoration: none; }
+a:hover { color: #7fd9d9; text-decoration: none; }
+
+
+
+/* C S S */
+
+
+/* nav */
+#navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top:10px;
+}
+
+.nav-logo {
+  display: block;
+  background-color: #eda307;
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.nav-name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 10px;  
+}
+
+
+/* profile */
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0 200px 0;
+}
+
+.profile-photo img {
+  display: block;
+  width: 380px;
+  height: 380px;
+  border-radius: 380px;
+  margin-right: 50px;
+  filter: grayscale(100%);
+  border: 1px solid #000;
+}
+
+.profile-desc h1 {
+  font-size: 100px;
+  color: #7fd9d9;
+  font-family: 'Righteous';
+
+}
+
+.profile-desc strong {
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-size: 25px;
+}
+
+.profile-blog i {
+  margin-top: 30px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+
+/* project */
+#project{
+  width: 700px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.project-desc h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #eda307;
+  font-family: 'Righteous';
+  margin-bottom: 10px;
+}
+
+.project-desc p {
+  margin-bottom: 30px;
+}
+
+.content{
+  width: 700px; 
+  height: 400px;
+  overflow: hidden;
+}
+
+.images{
+  position: relative;
+  display: flex;
+  height: 400px; 
+}
+
+.images img{
+  width: 700px; 
+  height: 400px;
+}
+
+button, 
+button:active, 
+button:focus{
+  width: 100px;
+  height: 25px;
+}
+
+button:disabled{  
+  display: none;
+}
+
+.prev{
+  float: left;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 10px;
+  border-bottom: 4px solid #7fd9d9;
+}
+.next{
+  float: right;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: 10px;
+  border-bottom: 4px solid #7fd9d9;
+}
+
+
+/* footer */
+.footer-desc {
+  text-align: center;
+  font-size: 11px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
