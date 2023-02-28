@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/7uckystrike.github.io/portfolio/static/css/main.4b22ffb8.css",
-    "main.js": "/7uckystrike.github.io/portfolio/static/js/main.b69ca31c.js",
-    "static/media/profile.jpeg": "/7uckystrike.github.io/portfolio/static/media/profile.f2af89321e720eded77d.jpeg",
-    "index.html": "/7uckystrike.github.io/portfolio/index.html",
-    "main.4b22ffb8.css.map": "/7uckystrike.github.io/portfolio/static/css/main.4b22ffb8.css.map",
-    "main.b69ca31c.js.map": "/7uckystrike.github.io/portfolio/static/js/main.b69ca31c.js.map"
+    "main.css": "/portfolio/static/css/main.4b22ffb8.css",
+    "main.js": "/portfolio/static/js/main.f726185b.js",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.f2af89321e720eded77d.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.4b22ffb8.css.map": "/portfolio/static/css/main.4b22ffb8.css.map",
+    "main.f726185b.js.map": "/portfolio/static/js/main.f726185b.js.map"
   },
   "entrypoints": [
     "static/css/main.4b22ffb8.css",
-    "static/js/main.b69ca31c.js"
+    "static/js/main.f726185b.js"
   ]
 }
