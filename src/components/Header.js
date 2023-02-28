@@ -1,6 +1,7 @@
 import profile from '../images/profile.jpeg'
 import styled from "@emotion/styled"
 import { RiGithubFill, RiMailLine } from 'react-icons/ri'
+import { RxNotionLogo } from 'react-icons/rx'
 
 export default function Header() {
 
@@ -11,8 +12,9 @@ export default function Header() {
                     <span className='name'>신자영</span>
                     <span className='description'>front-end developer</span>
                     <span className='icon'>
-                        <a href='https://github.com/7uckystrike'><RiGithubFill/></a>&nbsp; 
-                        <a href='mailto:yeoung.dev@gmail.com'><RiMailLine/></a>
+                        <a href='mailto:yeoung.dev@gmail.com'><RiMailLine/></a>&nbsp; 
+                        <a href='https://github.com/7uckystrike'><RiGithubFill/></a>&nbsp;
+                        <a href='https://jyounge.notion.site/6c57b5d4c9d943dd879226d68532793d?v=e13002ffbaa04b679fff650d4b850cd5'><RxNotionLogo/></a>
                     </span>
                 </WrapperLeft>
                 <WrapperRight>
