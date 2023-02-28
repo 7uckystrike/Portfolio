@@ -22,17 +22,10 @@ export default function Introduce() {
                     제 다양한 경험이 유연하고 소통하기 쉬운 조직으로 성장할 수 있도록 도와줄 것이라 생각합니다.
                     머리를 맞대어 코드를 생각하고 더 나음을 위해, 많은 사람들과 함께하고 싶습니다.
                 </p>
-                <br/>
-                <p>
-
-                    
-                </p>
             </WrapperDescription>
         </IntroduceWrapper>
     )
 }
-
-
 
 
 // 스타일링

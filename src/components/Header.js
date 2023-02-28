@@ -23,9 +23,6 @@ export default function Header() {
     )
 }
 
-
-
-
 // 스타일링
 const HeadWrapper = styled.div`
    width: 800px;

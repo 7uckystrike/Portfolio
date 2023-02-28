@@ -103,6 +103,8 @@ export default function Introduce() {
   </ProjectWrapper>
 )}
 
+
+
 // 스타일링
 const ProjectWrapper = styled.div`
   width: 780px;

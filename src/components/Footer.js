@@ -1,4 +1,3 @@
-import profile from '../images/profile.jpeg'
 import styled from "@emotion/styled"
 
 export default function Footer() {

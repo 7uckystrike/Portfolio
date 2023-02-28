@@ -39,6 +39,7 @@ export default function Skill() {
 }
 
 
+
 // 스타일링
 const SkillWrapper = styled.div`
    width: 780px;
