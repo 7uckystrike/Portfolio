@@ -94,7 +94,7 @@ export default function Introduce() {
           <ul>
             <li>개발을 배운 후, 처음으로 만들어 본 프로젝트입니다.</li>
             <li>순수 자바스크립트에 대해 공부하였습니다.</li>
-            <li><strong>localStroage</strong>를 통해 입력된 데이터를 저장합니다.</li>
+            <li><strong>localStorage</strong>를 통해 입력된 데이터를 저장합니다.</li>
             <li>media query를 사용해 아이폰5 기준에 맞춰 반응형을 구현했습니다.</li>
           </ul>
         </div>
