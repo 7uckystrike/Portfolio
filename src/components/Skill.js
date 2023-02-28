@@ -5,10 +5,10 @@ export default function Skill() {
 
     return(
         <SkillWrapper>
-            <Wrapper__title>
+            <WrapperTitle>
                 경험지식
-            </Wrapper__title>
-            <Wrapper__description>
+            </WrapperTitle>
+            <WrapperDescription>
                 <strong>HTML, CSS</strong>
                 <ul>
                     <li>간단한 마크업이 가능합니다.</li>
@@ -33,7 +33,7 @@ export default function Skill() {
                     <li>터미널에서 기본적인 Git 명령어를 사용 할 수 있습니다.</li>
                     <li>Github 저장소를 사용하고 있습니다.</li>
                 </ul>
-            </Wrapper__description>
+            </WrapperDescription>
         </SkillWrapper>
     )
 }
@@ -44,13 +44,15 @@ const SkillWrapper = styled.div`
    width: 780px;
 `
 
-const Wrapper__title = styled.div`
+const WrapperTitle = styled.div`
     font-size: 25px;
     padding-bottom: 15px;
 `
 
-const Wrapper__description = styled.div`
+const WrapperDescription = styled.div`
     text-align: justify;
+    font-weight: 300;
+    margin-bottom: 60px;
 
     strong {
         padding-left: 2px;

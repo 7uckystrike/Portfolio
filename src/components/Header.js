@@ -6,19 +6,19 @@ export default function Header() {
 
     return(
         <HeadWrapper>
-            <Wrapper__content>
-                <Wrapper__left>
+            <WrapperContent>
+                <WrapperLeft>
                     <span className='name'>신자영</span>
                     <span className='description'>front-end developer</span>
                     <span className='icon'>
                         <a href='https://github.com/7uckystrike'><RiGithubFill/></a>&nbsp; 
                         <a href='mailto:yeoung.dev@gmail.com'><RiMailLine/></a>
                     </span>
-                </Wrapper__left>
-                <Wrapper__right>
+                </WrapperLeft>
+                <WrapperRight>
                     <img src={profile} alt="프로필사진" />
-                </Wrapper__right>
-            </Wrapper__content>
+                </WrapperRight>
+            </WrapperContent>
         </HeadWrapper>
     )
 }
@@ -32,7 +32,7 @@ const HeadWrapper = styled.div`
    margin-top: 100px;
 `
 
-const Wrapper__content = styled.div`
+const WrapperContent = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -43,7 +43,7 @@ const Wrapper__content = styled.div`
     margin-bottom: 40px;
 `
 
-const Wrapper__left = styled.div`
+const WrapperLeft = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -68,7 +68,7 @@ const Wrapper__left = styled.div`
     }
 `
 
-const Wrapper__right = styled.div`
+const WrapperRight = styled.div`
     display: flex;
 
     img {

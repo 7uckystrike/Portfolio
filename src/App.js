@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import Introduce from "./components/Introduce"
 import Skill from "./components/Skill"
 import Project from "./components/Project"
+import Footer from "./components/Footer"
 
 const App = () => {
 
@@ -12,6 +13,7 @@ const App = () => {
       <Introduce />
       <Skill />
       <Project />
+      <Footer />
     </div>
   )
 }
