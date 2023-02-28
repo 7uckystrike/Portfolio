@@ -15,5 +15,5 @@ const TopBtn = styled.button`
   border: none;
   border-bottom: 3px solid #3eb489;
   cursor: pointer;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 `
