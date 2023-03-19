@@ -11,8 +11,8 @@ const App = () => {
     <div className="App">
       <Header />
       <Introduce />
-      <Skill />
       <Project />
+      <Skill />
       <Footer />
     </div>
   )

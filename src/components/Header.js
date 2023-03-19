@@ -14,7 +14,7 @@ export default function Header() {
                     <span className='icon'>
                         <a href='mailto:yeoung.dev@gmail.com'><RiMailLine/></a>&nbsp; 
                         <a href='https://github.com/7uckystrike'><RiGithubFill/></a>&nbsp;
-                        <a href='https://jyounge.notion.site/6c57b5d4c9d943dd879226d68532793d?v=e13002ffbaa04b679fff650d4b850cd5'><RxNotionLogo/></a>
+                        <a href='https://jyounge.notion.site/jyoung-s-blog-d3b61ac8fb814c14a3fac02c981a6e9f'><RxNotionLogo/></a>
                     </span>
                 </WrapperLeft>
                 <WrapperRight>
