@@ -73,7 +73,7 @@ export default function Introduce() {
           <span className='title'>SNS</span>
           <span className='icon'>
             <a href='https://github.com/7uckystrike/sns-clone'><AiFillGithub /></a>
-            <a href='https://jyounge.notion.site/emoiton-note-react-da804bbb40644ae7b023d79d479f8700'><RxNotionLogo /></a>
+            <a href='https://jyounge.notion.site/sns-react-firebase-c509c2507d75406f8732db75bc2134d6'><RxNotionLogo /></a>
             <a href='https://7uckystrike.github.io/sns-clone/'><AiOutlineLink /></a>
           </span>
         </div>
