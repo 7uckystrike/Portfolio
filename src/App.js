@@ -1,21 +1,26 @@
 import "./App.css"
-import Header from "./components/Header"
-import Introduce from "./components/Introduce"
-import Skill from "./components/Skill"
+import Contact from "./components/Contact"
+import AboutMe from "./components/AboutMe"
 import Project from "./components/Project"
-import Footer from "./components/Footer"
+import Introduce from "./components/Introduce"
 
-const App = () => {
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
+
+export default function App () {
+  
   return (
-    <div className="App">
-      <Header />
-      <Introduce />
-      <Project />
-      <Skill />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+
+<Routes>
+  <Route path="/" element={<Introduce/>} />
+  <Route path="/aboutme" element={<AboutMe/>} />
+  <Route path="/project" element={<Project/>} />
+  <Route path="/contact" element={<Contact />} />
+</Routes>
+
+      </div>
+    </Router>
   )
 }
-
-export default App

@@ -1,12 +1,14 @@
 import styled from "@emotion/styled"
 import { AiFillGithub, AiOutlineLink } from 'react-icons/ai'
 import { RxNotionLogo } from 'react-icons/rx'
+import Nav from './Nav'
 
 export default function Introduce() {
   return(
   <ProjectWrapper>
+    <Nav />
     <WrapperTitle>
-      사이드 프로젝트
+      프로젝트
     </WrapperTitle>
     <WrapperDescription>
       <div className='sideProject'>
@@ -20,7 +22,6 @@ export default function Introduce() {
         </div>
         <div className='description'>
           <ul>
-            <li>http-proxy-middleware 통한 프록시 설정으로 <strong>CORS 에러</strong>를 방지하였습니다.</li>
             <li><strong>Express</strong>를 기반으로 <strong>MongoDB</strong>를 백엔드 서비스로 이용했으며, <br/> mongoose 라이브러리를 통해 연결했습니다.</li>
             <li>회원가입은 Firebase를 사용했습니다.</li>
             <li>리덕스를 경험하고 리덕스 툴킷을 사용했습니다.</li>
@@ -28,7 +29,7 @@ export default function Introduce() {
           </ul>
         </div>
       </div>
-      <LineDiv></LineDiv>
+      
       <div className='sideProject'>
         <div className='project'>
           <span className='title'>book search</span>
@@ -47,7 +48,7 @@ export default function Introduce() {
           </ul>
         </div>
       </div>
-      <LineDiv></LineDiv>
+      
       <div className='sideProject'>
         <div className='project'>
           <span className='title'>portfolio</span>
@@ -67,7 +68,7 @@ export default function Introduce() {
           </ul>
         </div>
       </div>
-      <LineDiv></LineDiv>
+      
       <div className='sideProject'>
         <div className='project'>
           <span className='title'>SNS</span>
@@ -86,7 +87,7 @@ export default function Introduce() {
           </ul>
         </div>
       </div>
-      <LineDiv></LineDiv>
+      
       <div className='sideProject'>
         <div className='project'>
           <span className='title'>todo list</span>
@@ -105,8 +106,8 @@ export default function Introduce() {
           </ul>
         </div>
       </div>
-      <LineDiv></LineDiv>
-      <div className='sideProject'>
+      
+      {/* <div className='sideProject'>
         <div className='project'>
           <span className='title'>emotion note</span>
           <span className='icon'>
@@ -123,7 +124,7 @@ export default function Introduce() {
             <li>vercel로 배포했습니다.</li>
           </ul>
         </div>
-      </div>
+      </div> */}
     </WrapperDescription>
   </ProjectWrapper>
 )}
@@ -132,24 +133,30 @@ export default function Introduce() {
 
 // 스타일링
 const ProjectWrapper = styled.div`
-  width: 780px;
+  width:800px;
+  margin-top: 90px;
 `
 
 const WrapperTitle = styled.div`
-  font-size: 25px;
-  padding-bottom: 15px;
+    font-size: 20px;
+    padding-bottom: 15px;
 `
 
 const WrapperDescription = styled.div`
   margin-bottom: 60px;
 
   .sideProject {
-    width: 100%;
     height: 230px;
+
+    border: 1px solid #000;
+    box-shadow: 5px 5px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
+    margin-bottom: 40px;
   }
 
   .project {
@@ -161,7 +168,7 @@ const WrapperDescription = styled.div`
   }
 
   .description {
-    width: 550px;
+    width: 500px;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -184,8 +191,3 @@ const WrapperDescription = styled.div`
     margin-right: 10px;
   }
 `
-
-const LineDiv = styled.div `
-  border: 1px dashed #3eb489;
-`
-
