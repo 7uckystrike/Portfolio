@@ -11,16 +11,13 @@ export default function App () {
   
   return (
     <Router>
-      <div className="App">
+      <Routes>
+        <Route path="/*" element={<Introduce/>} />
+        <Route path="/aboutme" element={<AboutMe/>} />
+        <Route path="/project" element={<Project/>} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
 
-<Routes>
-  <Route path="/" element={<Introduce/>} />
-  <Route path="/aboutme" element={<AboutMe/>} />
-  <Route path="/project" element={<Project/>} />
-  <Route path="/contact" element={<Contact />} />
-</Routes>
-
-      </div>
     </Router>
   )
 }

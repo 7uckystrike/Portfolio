@@ -6,7 +6,7 @@ export default function Nav () {
   return(
     <NavWrapper>
       <ul>
-          <Link to="/" style={{ textDecoration: "none" }}>
+          <Link to="/introduce" style={{ textDecoration: "none" }}>
             <li>Home</li>
           </Link>
           <Link to="/aboutme" style={{ textDecoration: "none" }}>
