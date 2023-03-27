@@ -47,12 +47,11 @@ export default function Introduce() {
 // 스타일링
 const IntroduceWrapper = styled.div`
   width:800px;
-  height: 00px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 `
-
 
 const WrapperTitle = styled.div`
   font-size: 20px;
